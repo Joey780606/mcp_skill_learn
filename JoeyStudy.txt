@@ -1,0 +1,5 @@
+[Home: 非APP目錄, Office: APP目錄]
+[main.py]
+
+= = = =
+[main.py] 看到Ln 10
