@@ -1,0 +1,22 @@
+{
+  "skills": [
+    {
+      "name": "What is MCP?",
+      "description": "Conceptual overview of the Model Context Protocol",
+      "module": "app.skills.examples.hello_mcp",
+      "function": "run"
+    },
+    {
+      "name": "List Tools Demo",
+      "description": "Connect to echo server and list its available tools",
+      "module": "app.skills.examples.list_tools",
+      "function": "run"
+    },
+    {
+      "name": "Echo Tool Demo",
+      "description": "Call the echo tool and see the MCP response",
+      "module": "app.skills.examples.echo_tool",
+      "function": "run"
+    }
+  ]
+}

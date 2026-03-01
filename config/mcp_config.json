@@ -1,0 +1,44 @@
+{
+  "mcps": [
+    {
+      "name": "Echo Server — List Tools",
+      "description": "Lists tools exposed by the local echo MCP server",
+      "command": "python",
+      "args": ["servers/echo_server.py"],
+      "env": {},
+      "action": "list_tools",
+      "tool_name": "",
+      "tool_args": {}
+    },
+    {
+      "name": "Echo Server — Call echo",
+      "description": "Calls the 'echo' tool on the local echo MCP server",
+      "command": "python",
+      "args": ["servers/echo_server.py"],
+      "env": {},
+      "action": "call_tool",
+      "tool_name": "echo",
+      "tool_args": {"message": "Hello from mcp_skill_learn!"}
+    },
+    {
+      "name": "Time Server — Get current time",
+      "description": "Calls 'get_current_time' on the local time MCP server",
+      "command": "python",
+      "args": ["servers/time_server.py"],
+      "env": {},
+      "action": "call_tool",
+      "tool_name": "get_current_time",
+      "tool_args": {}
+    },
+    {
+      "name": "Time Server — List Tools",
+      "description": "Lists tools exposed by the local time MCP server",
+      "command": "python",
+      "args": ["servers/time_server.py"],
+      "env": {},
+      "action": "list_tools",
+      "tool_name": "",
+      "tool_args": {}
+    }
+  ]
+}

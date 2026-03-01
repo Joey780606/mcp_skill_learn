@@ -1,0 +1,5 @@
+# UI framework
+customtkinter>=5.2.0
+
+# MCP SDK (Model Context Protocol)
+mcp>=1.0.0
